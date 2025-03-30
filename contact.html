@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <style>
+        /* Set background color and text color for the page */
+        body {
+            background-color: #1C1C1C; /* Dark background */
+            color: #FFD700; /* Gold text */
+        }
+
+        /* Style for the submit button */
+        button {
+            background-color: #DAA520; /* Goldenrod button */
+            color: #fff; /* White text */
+        }
+
+        /* Style for input fields and textarea */
+        input, textarea {
+            background-color: #333333; /* Dark gray background */
+            color: #fff; /* White text */
+        }
+    </style>
+
+    <!-- Favicon link (make sure favicon.png exists in the root directory) -->
+    <link rel="icon" type="image/x-icon" href="/fevicon.png">
+</head>
+
+<body>
+
+    <!-- Contact Us Heading -->
+    <h1>📞 Contact Us</h1>
+
+    <!-- Address Section -->
+    <p><strong>📍Address :</strong></p>
+    <address>Infocity Square, Bhubaneswar, Odisha</address>
+
+    <!-- Phone Section with clickable link -->
+    <p><strong>📞 Phone :</strong> <a href="tel:+917325962679">+91 7325962679</a></p>
+
+    <!-- Email Section with mailto link -->
+    <p><strong>✉️ Email :</strong> <a href="mailto:aayushrout24@gmail.com">aayushrout24@gmail.com</a></p>
+
+    <!-- Business Hours Section -->
+    <p><strong>🕒 Business Hours :</strong></p>
+    <ul>
+        <li>Monday - Friday: <strong>9 AM - 6 PM</strong></li>
+        <li>Saturday - Sunday: <strong>Closed</strong></li>
+    </ul>
+
+    <br>
+    <hr> <!-- Horizontal Line -->
+    <br>
+
+    <!-- Form Section -->
+    <h2>📝 Get in Touch</h2>
+    <form action="/action">
+        <!-- Name Input Field -->
+        <label for="name">🔹 Name:&nbsp;</label>
+        <input type="text" name="name" placeholder="Enter your name" id="name">
+        <br><br>
+
+        <!-- Email Input Field -->
+        <label for="email">🔹 Email:&nbsp;</label>
+        <input type="email" name="email" placeholder="Enter your email" id="email" required>
+        <br><br>
+
+        <!-- Message Textarea -->
+        <label for="msg">🔹 Message:</label>
+        <br><br>
+        <textarea name="msg" id="msg" placeholder="Type your message here..." rows="6" cols="67"></textarea>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
